@@ -1,87 +1,146 @@
 <!DOCTYPE html>
+
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name - Portfolio</title>
-    <style>
-        body {
-            font-family: 'Arial', sans-serif;
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
 
-        header {
-            background-color: #333;
-            padding: 1em;
-            text-align: center;
-        }
+    <title>Chunyue Ma</title>
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link href="style.css" type="text/css" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  </head>
 
-        nav {
-            display: flex;
-            justify-content: center;
-            background-color: #555;
-            padding: 0.5em;
-        }
-
-        nav a {
-            color: white;
-            text-decoration: none;
-            padding: 0.5em 1em;
-            margin: 0 0.5em;
-            border-radius: 5px;
-        }
-
-        section {
-            padding: 2em;
-        }
-
-        footer {
-            background-color: #333;
-            color: white;
-            text-align: center;
-            padding: 1em;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
-        }
-    </style>
-</head>
-<body>
-    <header>
-        <h1>Your Name</h1>
-        <p>Web Developer</p>
-    </header>
-
-    <nav>
-        <a href="about.html">About</a>
-        <a href="projects.html">Projects</a>
-        <a href="contact.html">Contact</a>
+  <body>
+    <nav class="navbar navbar-dark navbar-expand-sm bg-dark fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#Navbar"
+          >
+            <span class="fa fa-chevron-circle-down fa-sm text-white"></span>
+          </button>
+          <a class="navbar-brand" href="./index.html">
+            Chunyue's Personal Website
+          </a>
+        </div>
+        <div class="collapse navbar-collapse float-md-end" id="Navbar">
+          <ul class="navbar-nav mr-auto float-md-start">
+            <li class="nav-item active">
+              <a class="nav-link" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./projects.html">Research</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./interest.html">Projects</a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </nav>
 
-    <section id="home">
-        <h2>Welcome to My Projects!</h2>
-        <p>Feel free to explore my work and get in touch.</p>
+    <section class="container">
+      <div class="row">
+        <div class="col-lg-3 col-md-3 col-sm-12 mx-auto my-auto">
+          <img
+            src="./img/chunyuema.png"
+            class="img-fluid rounded height: auto d-none d-lg-block img-thumbnail"
+          />
+        </div>
+        <div class="col-lg-9 col-md-12 col-sm-12 desc">
+          <h3>Hello World!</h3>
+          <p>
+            My name is Chunyue Ma and welcome to my personal site! I graduated
+            from Wesleyan University majoring in Computer Science and minoring
+            in Informatics and Modeling. I am passionate about software systems.
+            I like learning about distributed systems and cloud computing. In
+            addition to this, I have a special interest high performance
+            computing as well. Previously, I have worked as a software engineer
+            and a research engineer. Let’s connect!
+          </p>
+          <a
+            role="button"
+            class="btn btn-primary"
+            href="https://chunyuema.notion.site/Chunyue-s-Resume-da6bc94872c945fca41e3723f61a65e7?pvs=4"
+            target="_blank"
+            ><i class="fas fa-address-card"></i> <b>RESUME / CV</b></a
+          >
+        </div>
+      </div>
     </section>
 
-    <section id="about">
-        <h2>About Me</h2>
-        <p>Write a brief introduction about yourself here.</p>
+    <section class="container">
+      <hr class="mb-0" />
+      <div class="card">
+        <h3 id="section-name" class="card-header bg-dark text-white">
+          Relevant Skills
+        </h3>
+        <div class="card-body">
+          <dl class="row">
+            <dt class="col-5 text-dark">Programming Languages</dt>
+            <dd class="col-7 text-muted">
+              Python; JavaScript; Java; R; C; SML; Bash
+            </dd>
+            <dt class="col-5 text-dark">Front End Skills</dt>
+            <dd class="col-7 text-muted">
+              HTML5; CSS3; JavaScript; React; Bootstrap; React Native; Flutter
+            </dd>
+            <dt class="col-5 text-dark">Back End Skills</dt>
+            <dd class="col-7 text-muted">Django; Node.js; Express.js</dd>
+            <dt class="col-5 text-dark">Other Tools</dt>
+            <dd class="col-7 text-muted">
+              MongoDB; SQL(MySQL); Docker; AWS; Version Control; Postman
+            </dd>
+          </dl>
+        </div>
+      </div>
+      <hr />
     </section>
 
-    <section id="projects">
-        <h2>Projects</h2>
-        <p>Highlight some of your notable projects here.</p>
-    </section>
-
-    <section id="contact">
-        <h2>Contact Me</h2>
-        <p>Use this section to provide contact information or a contact form.</p>
-    </section>
-
-    <footer>
-        &copy; 2024 Your Name. All rights reserved.
+    <footer class="container mt-auto text-muted">
+      <p class="text-center">
+        A portfolio website for <span class="text-dark">Chunyue Ma </span>
+        <a href="https://github.com/chunyuema"
+          ><i class="fab fa-github text-muted"></i> GitHub</a
+        >
+        <a href="https://www.linkedin.com/in/chunyue-ma-7b944717a/"
+          ><span class="fab fa-linkedin-in text-muted"></span> LinkedIn</a
+        >
+      </p>
     </footer>
-</body>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
