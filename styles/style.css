@@ -1,0 +1,13 @@
+:root {
+    --hnk-red: #FF3333
+}
+
+header {
+    color: var(--hnk-red);
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+p {
+    color: black;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
