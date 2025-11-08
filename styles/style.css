@@ -1,13 +1,38 @@
 :root {
-    --hnk-red: #FF3333
+    --hnk-red: #cc004d
+}
+
+* {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 header {
+    margin: 0.5rem;
+}
+
+header > a[href="haakonkohler.com"]{
+    color: black;
+    text-decoration: none;
+}
+
+h1, h2, h3{
     color: var(--hnk-red);
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h1{
+    font-size: 3rem;
+}
+
+h2{
+    font-size: 1.5rem;
+}
+
+h3{
+    font-size: 1rem;
 }
 
 p {
     color: black;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1rem;
 }
+
