@@ -4,6 +4,7 @@
 
 * {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-wrap-style: pretty;
 }
 
 header {
@@ -37,7 +38,7 @@ img{
 }
 
 img.mini {
-    width: 200px;
+    width: 10rem;
 }
 
 nav {
@@ -49,4 +50,8 @@ p {
     color: black;
     font-size: 1rem;
     margin: 1rem;
+}
+
+.contentcolumn {
+    max-width: 32rem;
 }
