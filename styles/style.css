@@ -43,6 +43,7 @@ img.mini {
 
 nav {
     margin: 1rem;
+    max-width: 32rem;
 }
 
 
@@ -52,6 +53,14 @@ p {
     margin: 1rem;
 }
 
-.contentcolumn {
+.doubleContentContainer {
+    display:flex;
+}
+
+.navigationColumn {
+    max-width: 16rem;
+}
+
+.contentColumn {
     max-width: 32rem;
 }
